@@ -2,7 +2,7 @@
 
 var questionArray = [];
 var currentQuestionIndex = 0;
-var counter = 30;
+var counter = 15;
 var timer;
 
 var loadData = function() {
