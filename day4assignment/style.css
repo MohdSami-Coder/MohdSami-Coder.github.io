@@ -1,0 +1,83 @@
+.header {
+    
+    position: fixed;
+    left: 200px;
+    float: inherit;
+    width: 500px;
+    padding: 8px;
+    height: 20px;
+    border-radius: 1px;
+    color: #9DBFAF;
+    background-color: lightgray;
+  }
+  
+.button{
+
+    border-radius: 12px;
+    font-size: 15px;
+    position: fixed;
+    top: 70px;
+    left: 20px;
+
+}
+
+.selectbox{
+
+    position: fixed;
+    top: 50px;
+    left: 200px;
+}
+
+.leftsidebar{
+
+    position: fixed;
+    top: 100px;
+    left:  20px;
+    font-size: 18px;
+    width:  160px;
+    background-color: lightgray;
+}
+
+
+.Tabone{
+
+    position: fixed;
+    top:    75px;
+    left: 200px;
+    width:  180px;
+    font-size: 18px;
+    color: red;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color:red;
+
+    
+}
+
+.Tabtwo{
+
+    position: fixed;
+    top:    75px;
+    left: 400px;
+    font-size: 18px;
+    
+}
+
+.Tabthree{
+
+    position: fixed;
+    top:    75px;
+    left: 600px;
+    font-size: 18px;
+    
+}
+
+.mails{
+
+    position: fixed;
+    top:    110px;
+    left: 200px;
+    width:  900px;
+    font-size: 18px;
+
+}

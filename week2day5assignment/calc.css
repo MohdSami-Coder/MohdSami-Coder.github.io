@@ -1,0 +1,40 @@
+.Input {
+
+    margin-left: 200px;
+    
+}
+
+.Operators {
+
+    margin-left: 200px;
+
+}
+
+#Addition {
+
+    width: 30px;
+    height: 30px;
+}
+
+#Substraction {
+
+    width: 30px;
+    height: 30px;
+}
+
+#Multiplication {
+
+    width: 30px;
+    height: 30px;
+}
+
+#Division {
+
+    width: 30px;
+    height: 30px;
+}
+
+#Output {
+
+    margin-left: 200px;
+}

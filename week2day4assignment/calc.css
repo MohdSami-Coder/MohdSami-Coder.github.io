@@ -1,0 +1,51 @@
+.ClassInput {
+    width: 500px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+#Input1 {
+    background-color: grey;
+}
+
+#Input2 {
+    background-color: grey;
+}
+
+.Operators {
+    width: 200px;
+    margin: auto;
+}
+
+#Addition {
+    width: 40px;
+    margin: auto;
+    color:  red;
+}
+
+#Substraction {
+    width: 40px;
+    margin: auto;
+    color:  red;
+}
+
+#Multiplication {
+    width: 40px;
+    margin: auto;
+    color:  red;
+}
+
+#Division {
+    width: 40px;
+    margin: auto;
+    color:  red;
+}
+
+#Output {
+
+    text-align: center;
+
+}
+
+
