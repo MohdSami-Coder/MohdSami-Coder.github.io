@@ -158,7 +158,7 @@ class ContactUs extends React.Component{
         </div>
 
         <div className="offset-md-2 col-md-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.929419156559!2d77.62950026952207!3d12.972980313785726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a418770391%3A0xb50f46b826501036!2sIndiranagar%2C+Bengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1551870768336" allowfullscreen />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.929419156559!2d77.62950026952207!3d12.972980313785726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16a418770391%3A0xb50f46b826501036!2sIndiranagar%2C+Bengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1551870768336" style={{border: "0px", width: "800px", height: "600px", frameborder: "0px"}} allowfullscreen />
         </div>
 
         <br />
