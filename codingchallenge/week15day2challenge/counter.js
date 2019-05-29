@@ -1,48 +1,38 @@
 import {createStore} from 'redux';
 
-// Reducer function
-let scoreReducer = function(state, action) {
 
-    if(state === undefined){
-        return{currentScore: 0};
+// Reducer
+let counterReducer = function(state, action){
+
+    let newState = { counter: 0 };
+
+
+    // If empty state, initialize the state
+    if(!state || action.type == "RESET") { return newState }
+    
+
+    if(action.type == "INCREMENT") {
+        newState.counter = state.counter + 1;
     }
 
-    if(action.type === "INCREMENT"){
-        let newState = state;
-        newState.currentScore = newState.currentScore + 1;
-        return newState;
+    if(action.type == "DECREMENT") {
+        newState.counter = state.counter - 1;
     }
 
-    if(action.type === "DECREMENT"){
-        let newState = state;
-        newState.currentScore = newState.currentScore -1;
-        return newState;
-    }
+    return newState;
 
-    if(action.type === "RESET"){
-        let newState = state;
-        newState.currentScore = newState.currentScore;
-        return newState;
-    }
 }
 
+// Create a store from the Reducer
+let counterStore = createStore(counterReducer);
 
-let store = createStore(scoreReducer);
-
-store.subscribe(function(){
-
-    let state = store.getState();
-    console.log("Counter = ", state)
+// Subscribe to changes in state
+counterStore.subscribe(function(){
+    console.log( counterStore.getState() );
 })
 
-store.dispatch({
-    type: "INCREMENT"
-})
 
-store.dispatch({
-    type: "DECREMENT"
-})
-
-store.dispatch({
-    type: "RESET"
-})
+// Sending actions to Reducer
+counterStore.dispatch({ type: "INCREMENT" });
+counterStore.dispatch({ type: "DECREMENT" });
+counterStore.dispatch({ type: "RESET" });
