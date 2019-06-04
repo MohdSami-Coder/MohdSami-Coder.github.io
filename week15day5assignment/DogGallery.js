@@ -9,7 +9,7 @@ class DogGalleryComponent extends React.Component {
     renderImages() {
         let images = [];
         for(let i = 0; i < this.props.dogImages.length; i++) {
-            images.push( <img className="img-fluid" src={this.props.dogImages[i]} /> );
+            images.push( <img key={this.props.dogImages[i]} className="img-fluid" src={this.props.dogImages[i]} /> );
         }
         return images;
     }
