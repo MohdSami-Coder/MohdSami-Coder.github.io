@@ -1,0 +1,7 @@
+
+
+ "This is a text file created for Coding Challenge."
+
+ "Read the file and search string."
+	
+ "Ansal is the instructor."
