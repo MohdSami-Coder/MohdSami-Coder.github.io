@@ -4,7 +4,7 @@ let fs = require("fs");
   class PriorityQueue extends Heap{
     constructor(){
         let compare = function(a, b){
-            return this.priorities[a] < this.priorities[b];
+            return this.priorities[a] > this.priorities[b];
         }
         super(compare);
 
@@ -38,4 +38,4 @@ let pq = new PriorityQueue();
       pq.add(row[0],row[1])
     }
     pq.print();
-  });s
+  });

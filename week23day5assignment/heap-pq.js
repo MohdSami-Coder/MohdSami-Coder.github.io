@@ -46,7 +46,7 @@ class Heap{
 
         while( this.hasParent(currentIndex) && !this.compare(this.getParent(currentIndex), this.array[currentIndex]) ){
             
-            this.swap( this.getParentIndex(currentIndex), this.array[currentIndex] );
+            this.swap( this.getParentIndex(currentIndex), currentIndex );
 
             currentIndex = this.getParentIndex(currentIndex);
         }
